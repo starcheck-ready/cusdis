@@ -22,9 +22,7 @@ const makeIframeContent = (target) => {
   </head>
   <body>
     <div id="root"></div>
-    <script src="${iframeJsPath}" type="module">
-      
-    </script>
+    <script src="${iframeJsPath}"></script>
   </body>
 </html>`
 }
