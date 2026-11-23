@@ -219,7 +219,7 @@ function ProjectPage(props: {
                         <Text>
                           on
                         </Text>
-                        <Anchor href={comment.page.url} target="_blank">{comment.page.slug}</Anchor>
+                        <Anchor href={comment.page.url} target="_blank">{comment.page.title || comment.page.slug}</Anchor>
                       </Group>
                       <Box sx={{
                         marginTop: 8
